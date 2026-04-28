@@ -45,31 +45,31 @@ def load_model_and_data():
 cluster_info = {
     0: {
         'name': 'Careful Customers',
-        'description': 'Low Income, Low Spending',
+        'description': 'Medium Income, Medium Spending',
         'strategy': 'Budget-friendly products, discount offers',
         'color': '#2ecc71'
     },
     1: {
-        'name': 'Standard Customers',
-        'description': 'Moderate Income, Moderate Spending',
+        'name': 'Premium Customers',
+        'description': 'High Income, High Spending',
         'strategy': 'Balanced product range, loyalty programs',
         'color': '#e74c3c'
     },
     2: {
         'name': 'Target Customers',
-        'description': 'High Income, High Spending',
+        'description': 'Low mid income, High Spending',
         'strategy': 'Premium products, VIP services - PRIORITY!',
         'color': '#f39c12'
     },
     3: {
-        'name': 'Careless Customers',
-        'description': 'Low Income, High Spending',
+        'name': 'Conservative Customers',
+        'description': 'High Income, Low Spending',
         'strategy': 'Installment plans, credit options',
         'color': '#9b59b6'
     },
     4: {
         'name': 'Sensible Customers',
-        'description': 'High Income, Low Spending',
+        'description': 'Low Income, Low Spending',
         'strategy': 'Quality emphasis, investment products',
         'color': '#3498db'
     }
